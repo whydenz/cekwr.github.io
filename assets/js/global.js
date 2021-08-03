@@ -3,13 +3,12 @@ function welcomeMsg() {
     let array = 0;
 
     
-    const takapediaWA = `<a href="https://api.whatsapp.com/send?phone=6282177344150" target="_blank">Rayden</a>`;
-    const linkTiktokGua = `<a href="https://tiktok.com/@gw.rayden" target="_blank">Tiktok</a>`
-
+    const wAgw = `<a href="https://api.whatsapp.com/send?phone=6282177344150" target="_blank">Rayden</a>`;
     
-    const msg3 = `<p class="animation mb-0 text-truncate">Ready JOKI WR </p>`;
-    const msg4 = `<p class="animation mb-0 text-truncate">Follow ${linkTiktokGua} gw ya</p>`;
-    const msg5 = `<p class="animation mb-0 text-truncate">Jangan lupa follow sosmed gua dibawah ya</p>`;
+    
+    const msg3 = `<p class="animation mb-0 text-truncate">Ready JOKI WR - Hide history pertandingan - Create akun advance server</p>`;
+    const msg4 = `<p class="animation mb-0 text-truncate">Chat WA ${wAgw}</p>`;
+    const msg5 = `<p class="animation mb-0 text-truncate">Selamat menggunakan tools ini ;)</p>`;
 
     let arrayEl = [msg3, msg4, msg5];
     let arrayMax = 5;
