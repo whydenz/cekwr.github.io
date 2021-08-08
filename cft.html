@@ -35,8 +35,8 @@
                     var { isConfirmed: sayang } = await swals.fire({
                         title: `${nama} sayang ga sama ${author}`,
                         confirmButtonText: 'Sayang',
-                        confirmButtonText: 'Sayang Donk ❤',
-                        showCancelButton: false,
+                        cancelButtonText: 'Gak',
+                        showCancelButton: true,
                     });
                     if(sayang){
                         await swals.fire('Aku juga sayang banget sama kamu');
@@ -56,7 +56,7 @@
                             var { isConfirmed: kangen } = await swals.fire({
                                 title: 'Sekarang kamu kangen ga sama aku?',
                                 confirmButtonText: 'Kangen',
-                                confirmButtonText: 'Kangen Banget!',
+                                cancelButtonText: 'Gak',
                                 showCancelButton: true,
                             });
                             if(kangen){
@@ -76,7 +76,7 @@
             }
         function hati(){
             document.getElementById('button').style = 'display: none';
-            document.getElementById('iloveyou').style = '';
+            document.getElementById('I LOVE YOU ${nama}').style = '';
             startConfetti();
         }
         </script>
